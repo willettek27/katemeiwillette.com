@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title> About Me </title>
+		<link rel = "stylesheet" href = "about.css" />
+		<link rel="shortcut icon" href="https://katewillettewebsite.s3.amazonaws.com/logo.jpeg"/>
+
+	</head>
+<body>
+	<h1> About Me </h1>
+	<a href = "index.html" > Home </a>
+	<h2 id = "name"> Kathryn Willette </h2>
+	<p class = "intro"> I am currently a Junior in the Computer Science department based in Rockford, IL. On my free time, I am the concertmaster in the Rock Valley Orchestra. </p>
+	<footer>
+		<p> Contact: <a href = "mailto:willettek27@gmail.com" > willettek27@gmail.com </a> </p>
+	</footer>
+	<a href = "#top"> Top </a>
+
+</body>
+</html>
