@@ -1,0 +1,64 @@
+/* global values */
+:root {
+        --shadow-color-1: purple ;
+}
+
+body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #a1cbf0;
+        padding: 30px;
+        text-align:center;
+        text-indent: 25px;
+}
+
+/* hover effect for links */
+a:hover, a:focus{
+        color: rgb(226, 98, 43);
+        font-style: italic;
+}
+
+/* navigation */
+nav ul {
+        width: 950px;
+        padding: 30px;
+        margin: 0px auto 0px auto;
+        border-top: 5px double #000;
+        border-bottom: 5px double #000;
+        text-align: center;
+}
+
+/* navigation  */
+nav ul li {
+        display: inline;
+        padding: 30px;
+        font-size: medium;
+}
+
+/* main */
+main h1 {
+	text-shadow: 2px 2px 5px var(--shadow-color-1); 
+}
+
+main ul {
+	list-style-type: none;
+}
+
+main ul li {
+	display: block;
+	padding: 25px;
+}
+
+main ul li p {
+	display: inline;
+	padding 25px;
+}
+
+
+footer {
+	position: fixed;
+  	bottom: 0;
+	width: 100%;       
+       	text-align: center;
+
+}
+

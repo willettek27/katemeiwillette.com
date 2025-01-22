@@ -1,0 +1,53 @@
+
+/* global values */
+:root {
+	--shadow-color-1: rgb(50, 9, 108);
+}
+
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 30px;
+	background-image: url("https://katemeiwillette.s3.us-east-1.amazonaws.com/background.jpg");
+	text-align: center;
+}
+
+a:hover, a:focus{
+	color: rgb(5, 195, 255);
+	font-style: italic;
+}
+
+/* navigation */
+nav ul {
+	width: 1080px;
+	padding: 30px;
+	margin: 0px auto 0px auto;
+	border-top: 5px double #000;
+	border-bottom: 5px double #000;
+}
+
+nav ul li {
+	display: inline;
+	padding: 30px;
+	font-size: medium;
+}
+
+/* text shadow for word */
+#name {
+	text-shadow: 2px 2px 5px var(--shadow-color-1);
+}
+
+/* css for  profile photo */
+#profilepic {
+         height: auto;
+         width: 30%;
+	 padding: 10px;
+}
+
+footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;        
+        text-align: center;
+
+}
