@@ -11,6 +11,10 @@ body{
 	text-align:center;
 }
 
+a,a:active, a:visited {
+	color: #FF7F50;
+}
+
 /* hover effect for links */
 a:hover, a:focus{
 	color: rgb(5, 195, 255);
