@@ -17,7 +17,7 @@ a,a:active, a:visited {
 }
 
 a:hover, a:focus{
-	color: rgb(5, 195, 255);
+	color: #01474C;
 	font-style: italic;
 }
 
@@ -43,15 +43,14 @@ nav ul li {
 
 /* css for  profile photo */
 #profilepic {
-         height: auto;
-         width: 30%;
-	 padding: 10px;
+    height: auto;
+    width: 30%;
+	padding: 10px;
 }
 
 footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;        
-        text-align: center;
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;        
+    text-align: center;
 }
