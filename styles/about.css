@@ -1,11 +1,10 @@
-
+		
 /* global values */
 :root {
-	--shadow-color-1: rgb(50, 9, 108);
+	--shadow-color-1: purple ;
 }
 
-
-body {
+body{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: 30px;
 	background-color: #77A1C0;
@@ -16,20 +15,23 @@ a,a:active, a:visited {
 	color: #4C0121;
 }
 
+/* hover effect for links */
 a:hover, a:focus{
 	color: #01474C;
 	font-style: italic;
-}
+} 
 
 /* navigation */
 nav ul {
 	width: 1080px;
-	padding: 30px;
+	padding: 30px; 
 	margin: 0px auto 0px auto;
 	border-top: 5px double #000;
 	border-bottom: 5px double #000;
+	text-align: center;
 }
 
+/* navigation  */
 nav ul li {
 	display: inline;
 	padding: 50px;
@@ -43,14 +45,14 @@ nav ul li {
 
 /* css for  profile photo */
 #profilepic {
-    height: auto;
-    width: 30%;
+    height: 700px;
+    width: 40%;
 	padding: 10px;
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
-    width: 100%;        
+    width: 100%;
     text-align: center;
 }
