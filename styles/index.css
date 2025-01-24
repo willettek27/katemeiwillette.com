@@ -45,13 +45,12 @@ nav ul li {
 
 /* css for  profile photo */
 #profilepic {
-    height: 700px;
     width: 40%;
 	padding: 10px;
 }
 
 footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
