@@ -50,6 +50,38 @@ nav ul li {
 	padding: 10px;
 }
 
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold text for labels */
+}
+
+input [type = "text"],
+input [type = "email"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    background-color: #007bff; /* button background blue */
+    color: white; /* button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* change cursor when hovering */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
 footer {
     padding: 20px;
 	text-align: center;

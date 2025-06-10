@@ -50,8 +50,10 @@ nav ul li {
 }
 
 footer {
-    position: fixed;
+	padding: 20px;
+	text-align: center;
+	position: relative;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    border-top: 1px solid #dee2e6; 
 }
