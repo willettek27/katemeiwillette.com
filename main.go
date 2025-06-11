@@ -10,7 +10,7 @@ import (
 func main() {
 	http.Handle("/styles/", http.StripPrefix("/styles/", http.FileServer(http.Dir("styles/"))))
 
-	http.HandleFunc("/", home)
+	http.HandleFunc("/", index)
 	// http.HandleFunc("/about", about)
 	http.HandleFunc("/projects", projects)
 	// http.HandleFunc("/contact", contact)
@@ -23,8 +23,8 @@ func main() {
 	}
 }
 
-func home(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "home.html")
+func index(w http.ResponseWriter, r *http.Request) {
+	renderTemplate(w, "index.html")
 }
 
 /* func about(w http.ResponseWriter, r *http.Request) {
