@@ -1,0 +1,57 @@
+		
+/* global values */
+:root {
+	--shadow-color-1: purple ;
+}
+
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 30px;
+	background-color: #77A1C0;
+	text-align: center;
+}
+
+a,a:active, a:visited {
+	color: #4C0121;
+}
+
+/* hover effect for links */
+a:hover, a:focus{
+	color: #01474C;
+	font-style: italic;
+} 
+
+/* navigation */
+nav ul {
+	width: 1080px;
+	padding: 30px; 
+	margin: 0px auto 0px auto;
+	border-top: 5px double #000;
+	border-bottom: 5px double #000;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	padding: 50px;
+	font-size: medium;
+}
+
+/* text shadow for word */
+#name {
+	text-shadow: 2px 2px 5px var(--shadow-color-1);
+}
+
+/* css for  profile photo */
+#profilepic {
+    width: 40%;
+	padding: 10px;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	position: relative;
+    bottom: 0;
+    width: 100%;
+}
