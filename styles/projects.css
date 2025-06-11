@@ -1,43 +1,37 @@
 
-
 /* global values */
 :root {
-        --shadow-color-1: purple ;
+     --shadow-color-1: purple ;
 }
 
 body{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 30px;
-        background-color: #77A1C0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    background-color: #77A1C0;
 	text-align:center;
 }
 
-a,a:active, a:visited {
-        color: #4C0121;
-}
-
-
 /* hover effect for links */
 a:hover, a:focus{
-        color: #01474C;
-        font-style: italic;
+    color: rgb(5, 195, 255);
+    font-style: italic;
 }
 
 /* navigation */
 nav ul {
-        width: 1080px;
-        padding: 30px;
-        margin: 0px auto 0px auto;
-        border-top: 5px double #000;
-        border-bottom: 5px double #000;
-        text-align: center;
+    width: 1080px;
+    padding: 30px;
+    margin: 0px auto 0px auto;
+    border-top: 5px double #000;
+    border-bottom: 5px double #000;
+    text-align: center;
 }
 
 /* navigation  */
 nav ul li {
-        display: inline;
-        padding: 50px;
-        font-size: medium;
+    display: inline;
+    padding: 50px;
+    font-size: medium;
 }
 
 /* main */
@@ -56,7 +50,7 @@ main table {
 main th {
 	margin: 15px auto 15px auto;
 	padding: 15px;
-	color: #000;
+	color: navy;
 	border-bottom: 1px solid #000;
 	text-transform:uppercase;
 }
@@ -78,10 +72,8 @@ main td.dates {
 
 
 footer {
-        padding: 20px;
-	text-align: center;
-	position: relative;
-        bottom: 0;
-        width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
-

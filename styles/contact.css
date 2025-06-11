@@ -1,0 +1,83 @@
+		
+/* global values */
+:root {
+	--shadow-color-1: purple ;
+}
+
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 30px;
+	background-color: #77A1C0;
+	text-align: center;
+}
+
+a,a:active, a:visited {
+	color: #4C0121;
+}
+
+/* hover effect for links */
+a:hover, a:focus{
+	color: #01474C;
+	font-style: italic;
+} 
+
+/* navigation */
+nav ul {
+	width: 1080px;
+	padding: 30px; 
+	margin: 0px auto 0px auto;
+	border-top: 5px double #000;
+	border-bottom: 5px double #000;
+	text-align: center;
+}
+
+/* navigation  */
+nav ul li {
+	display: inline;
+	padding: 50px;
+	font-size: medium;
+}
+
+
+.form-group {
+    width: 70%;
+    margin-bottom: 15px; /* Space between form groups */
+    text-align: left;
+}
+
+.form-group label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold text for labels */
+}
+
+input [type = "text"],
+input [type = "email"],
+textarea {
+    width: 70%; /* Full width */
+    padding: 10px; /* Padding for input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    
+}
+
+button {
+    background-color: #007bff; /* button background blue */
+    color: white; /* button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* change cursor when hovering */
+    text-align: right;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+ 	position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+}

@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	http.Handle("/styles/", http.StripPrefix("/styles/", http.FileServer(http.Dir("styles/"))))
+	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static/"))))
 
 	http.HandleFunc("/", index)
 	// http.HandleFunc("/about", about)
