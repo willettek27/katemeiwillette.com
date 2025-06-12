@@ -12,9 +12,14 @@ body{
 }
 
 /* hover effect for links */
+a,a:active, a:visited {
+	color: #4C0121;
+}
+
+/* hover effect for links */
 a:hover, a:focus{
-    color: rgb(5, 195, 255);
-    font-style: italic;
+	color: #01474C;
+	font-style: italic;
 }
 
 /* navigation */
