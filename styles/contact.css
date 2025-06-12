@@ -38,6 +38,13 @@ nav ul li {
 	font-size: medium;
 }
 
+#contact {
+        text-shadow: 2px 2px 5px var(--shadow-color-1);
+}
+
+#success {
+    text-shadow: 2px 2px 5px #4C0121;
+}
 
 .form-group {
     width: 70%;
@@ -73,6 +80,11 @@ button {
 
 button:hover {
     background-color: #0056b3; /* Darker blue on hover */
+}
+
+.center {
+        padding: 150px 0;
+        text-align: center;
 }
 
 footer {
