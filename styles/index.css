@@ -42,6 +42,7 @@ nav ul li {
 /* text shadow for word */
 #name {
 	text-shadow: 2px 2px 5px var(--shadow-color-1);
+	padding: 20px;
 }
 
 /* css for  profile photo */
