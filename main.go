@@ -36,11 +36,11 @@ func projects(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "projects.html")
 }
 
-/*
+
 func contact(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "contact.html")
 }
-*/
+
 
 func renderTemplate(w http.ResponseWriter, tmpl string) {
 
