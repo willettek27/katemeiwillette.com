@@ -13,8 +13,7 @@ func main() {
 	http.HandleFunc("/", index)
 	// http.HandleFunc("/about", about)
 	http.HandleFunc("/projects", projects)
-	// http.HandleFunc("/contact", contact)
-
+	http.HandleFunc("/contact", contact)
 	fmt.Println("Server is running on http://katemeiwillette.com")
 
 	err := http.ListenAndServe(":8080", nil)
