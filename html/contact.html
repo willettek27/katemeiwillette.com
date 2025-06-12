@@ -26,29 +26,36 @@
                 <!-- Honey Pot -->
                 <input type = "text" name = "_honey" style ="display:none;">
 
-                <!--Disable Captcha -->
-                <input type = "hidden" name ="_captcha" value = "false">
+                <!-- Disable Captcha - autoresponse won't work if captcha is enabled -->
+                <input type = "hidden" name ="_captcha" value = "false"> 
 
                 <!-- Redirect to success page -->
-                <input type = "hidden" name = "_next" value = "http://katemeiwillette.com/success">
+                <input type = "hidden" name ="_next" value = "http://katemeiwillette.com/success">
+
+                <!-- Filter Blacklist 
+                <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase"> -->
+                
                 
                 <div class = "form-group">
                     <label for = "name"> Name: </label>
-                    <input type = "text" id = "name" name = "Name" required>
+                    <input type = "text" id = "name" name = "Name" size="30" placeholder="John Doe">
                 </div>
+                
                 <div class = "form-group">
                     <label for = "email"> Email: </label>
-                    <input type = "email" id = "email" name = "Email" required>
+                     <!-- Auto response -->
+                    <input type="hidden" name="_autoresponse" value="Thank you for your submission!">
+                    <input type = "email" id = "email" name = "Email" size="30" placeholder="johndoe@example.com" required>
                 </div>
+
                 <div class = "form-group">
                     <label for = "phone"> Phone Number: </label>
-                    <input type = "text" id = "phone" name = "Phone&nbsp;Number">
+                    <input type = "text" id = "phone" name = "Phone&nbsp;Number" maxlength="14" size="30" placeholder="(123) 456-7890">
                 </div> 
-
 
                 <div class = "form-group">
                     <label for = "message"> Message: </label>
-                    <textarea id = "message" name = "Message" rows = "4" required></textarea>
+                    <textarea id = "message" name = "Message" rows = "4" placeholder="Your message here..." required></textarea>
                 </div>
                 <div class = "form-group">
                     <button type = "submit"> Send Message </button>
