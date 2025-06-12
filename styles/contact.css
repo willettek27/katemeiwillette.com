@@ -46,6 +46,15 @@ nav ul li {
     text-shadow: 2px 2px 5px #4C0121;
 }
 
+form {
+    width: 80%; /* Full width of the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Padding around the form */
+    background-color: white; /* White background for the form */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
 .form-group {
     width: 70%;
     margin-bottom: 15px; /* Space between form groups */
