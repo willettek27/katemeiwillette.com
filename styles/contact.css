@@ -84,7 +84,6 @@ button {
     border-radius: 5px; /* Rounded corners */
     padding: 10px 15px; /* Padding for button */
     cursor: pointer; /* change cursor when hovering */
-    text-align: right;
 }
 
 button:hover {
