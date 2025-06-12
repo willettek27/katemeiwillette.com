@@ -19,7 +19,7 @@ a:hover, a:focus{
 
 /* navigation */
 nav ul {
-	width: 1080px;
+	width: 80%;
 	padding: 30px; 
 	margin: 0px auto 0px auto;
 	border-top: 5px double #000;
@@ -36,9 +36,8 @@ nav ul li {
 
 
 footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-
+ 	position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }

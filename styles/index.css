@@ -24,7 +24,7 @@ a:hover, a:focus{
 
 /* navigation */
 nav ul {
-	width: 1080px;
+	width: 80%;
 	padding: 30px; 
 	margin: 0px auto 0px auto;
 	border-top: 5px double #000;
@@ -46,15 +46,16 @@ nav ul li {
 
 /* css for  profile photo */
 #profilepic {
-         height: auto;
-         width: 30%;
-	 padding: 10px;
+    height: auto;
+    width: 30%;
+	padding: 10px;
 }
+
 
 footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-
+ 	position: fixed;
+	bottom: 0;
+    width: 100%;
+    text-align: center;
 }
+
