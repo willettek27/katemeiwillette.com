@@ -15,7 +15,7 @@ func main() {
 	http.HandleFunc("/projects", projects)
 	http.HandleFunc("/contact", contact)
 	port := ":8080"
-	fmt.Printf("Listening on %s\n", port)
+	fmt.Printf("Server running on port %s\n", port)
 
 	err := http.ListenAndServe(port, nil)
 	if err != nil {
