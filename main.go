@@ -14,7 +14,7 @@ func main() {
 	// http.HandleFunc("/about", about)
 	http.HandleFunc("/projects", projects)
 	http.HandleFunc("/contact", contact)
-	port := ":8080"
+	port := ":80"
 	fmt.Printf("Go Server running on port %s\n", port)
 
 	err := http.ListenAndServe(port, nil)
