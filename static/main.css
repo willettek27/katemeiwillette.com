@@ -41,8 +41,9 @@ nav ul li {
 }
 
 /* main */
-main #shadow {
+main h1 {
 	text-shadow: 2px 2px 5px var(--shadow-color-1);
+    text-align: center;
 }
 
 main table {
@@ -75,11 +76,12 @@ main td.dates {
 	padding: 5px;
 }
 
-#name {
+/* css for  profile photo 
+#title {
 	text-shadow: 2px 2px 5px var(--shadow-color-1);
 }
 
-/* css for  profile photo */
+
 #profilepic {
          height: auto;
          width: 30%;
@@ -89,6 +91,7 @@ main td.dates {
 #contact {
         text-shadow: 2px 2px 5px var(--shadow-color-1);
 }
+ */
 
 #success {
     text-shadow: 2px 2px 5px #4C0121;
