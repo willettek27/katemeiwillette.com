@@ -76,22 +76,12 @@ main td.dates {
 	padding: 5px;
 }
 
-/* css for  profile photo 
-#title {
-	text-shadow: 2px 2px 5px var(--shadow-color-1);
-}
-
 
 #profilepic {
          height: auto;
          width: 30%;
 	 padding: 10px;
 }
-
-#contact {
-        text-shadow: 2px 2px 5px var(--shadow-color-1);
-}
- */
 
 #success {
     text-shadow: 2px 2px 5px #4C0121;
