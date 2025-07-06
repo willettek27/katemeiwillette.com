@@ -5,6 +5,13 @@
      --shadow-color-1: purple ;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 30px;
@@ -40,7 +47,18 @@ nav ul li {
     font-size: medium;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* main */
+
+main {
+    flex: 1;
+}
+
 main h1 {
 	text-shadow: 2px 2px 5px var(--shadow-color-1);
     text-align: center;
@@ -139,8 +157,5 @@ button:hover {
 footer {
     padding: 20px;
 	text-align: center;
-	position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
