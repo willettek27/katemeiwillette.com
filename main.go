@@ -14,7 +14,7 @@ func main() {
 	// http.HandleFunc("/about", about)
 	http.HandleFunc("/projects", projects)
 	http.HandleFunc("/contact", contact)
-	port := ":80"
+	port := ":8080"
 	fmt.Printf("Go Server running on port %s\n", port)
 
 	err := http.ListenAndServe(port, nil)
@@ -24,20 +24,20 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "index.html")
+	renderTemplate(w, "html/index.html")
 }
 
 /* func about(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "about.html")
+	renderTemplate(w, "html/about.html")
 }
 */
 
 func projects(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "projects.html")
+	renderTemplate(w, "html/projects.html")
 }
 
 func contact(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "contact.html")
+	renderTemplate(w, "html/contact.html")
 }
 
 func renderTemplate(w http.ResponseWriter, tmpl string) {
