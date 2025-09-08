@@ -40,6 +40,10 @@ func contact(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "contact.html")
 }
 
+func workInProgress(w http.ResponseWriter, r *http.Request) {
+	renderTemplate(w, "work-in-progress.html")
+}
+
 func renderTemplate(w http.ResponseWriter, tmpl string) {
 
 	t, err := template.ParseFiles("html/" + tmpl)
