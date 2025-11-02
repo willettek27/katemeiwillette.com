@@ -40,9 +40,10 @@ func contact(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "contact.html")
 }
 
-func workInProgress(w http.ResponseWriter, r *http.Request) {
+/* func workInProgress(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "work-in-progress.html")
 }
+*/
 
 func renderTemplate(w http.ResponseWriter, tmpl string) {
 
